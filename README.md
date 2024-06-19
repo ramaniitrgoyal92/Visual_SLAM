@@ -1,3 +1,3 @@
-## SLAM
+# SLAM
 
-mono visual slam
+mono visual SLAM
