@@ -7,3 +7,6 @@ print(a*a)
 
 b = 100
 print(b*b)
+
+d = 1000
+print(d*d)
