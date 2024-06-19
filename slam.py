@@ -8,6 +8,8 @@ print(a*a)
 b = 100
 print(b*b)
 
-
 C=1000
 print(C*C)
+
+d = 1000
+print(d*d)
