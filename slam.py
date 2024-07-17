@@ -14,13 +14,13 @@ keypoints1, descriptors1 = orb.detectAndCompute(image1, None)
 # Detect keypoints and compute descriptors for the second image
 keypoints2, descriptors2 = orb.detectAndCompute(image1, None)
 
-# # Draw keypoints on the image for visualization
-# image_with_keypoints = cv2.drawKeypoints(image, keypoints, None, color=(0, 255, 0), flags=0)
+# Draw keypoints on the image for visualization
+image_with_keypoints = cv2.drawKeypoints(image1, keypoints1, None, color=(0, 255, 0), flags=0)
 
-# plt.imshow(image_with_keypoints)
+plt.imshow(image_with_keypoints)
 
-# # Save or display the image with keypoints
-# cv2.imwrite('image_with_keypoints.jpg', image_with_keypoints)
+# Save or display the image with keypoints
+cv2.imwrite('image_with_keypoints.jpg', image_with_keypoints)
 
 
  ###SLAM
