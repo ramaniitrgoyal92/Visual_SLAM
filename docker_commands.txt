@@ -1,0 +1,23 @@
+docker ps
+docker build -t name
+
+docker volume create name
+
+docker compose up
+
+docker container create name
+docker container start name
+
+run = create+start
+
+docker container stop dc3ee82eab09
+
+docker container kill dc3ee82eab09
+
+docker container rm -f dc3ee82eab09
+
+docker container inspect dc3ee82eab09
+
+docker container exec -it dc3ee82eab09 redis-cli
+
+docker build . 
